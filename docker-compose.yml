@@ -14,11 +14,11 @@ services:
     command: npm run dev
 
   client:
-    build:
-      context: ./visavi-client
-    ports:
-      - "5173:5173"
-    volumes:
-      - ./visavi-client:/app
-      - /app/node_modules
-    command: npm run dev
+  build:
+    context: ./visavi-client
+  ports:
+    - "5173:5173"
+  volumes:
+    - ./visavi-client:/app
+    - /app/node_modules
+  command: npm run dev -- --host
