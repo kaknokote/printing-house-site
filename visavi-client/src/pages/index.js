@@ -1,0 +1,9 @@
+export { HomePage } from './home-page';
+export { LoginPage } from './login-page';
+export { RegisterPage } from './register-page';
+export { CallRequestPage } from './call-request-page';
+export { ErrorPage } from './error-page';
+export { AdminPage } from './admin-page';
+export { AdminCallRequestsPage } from './admin-call-request-page';
+export { ServicePage } from './service-page';
+export { AddServicePage } from './add-service-page';
