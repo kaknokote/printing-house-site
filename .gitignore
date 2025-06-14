@@ -1,0 +1,11 @@
+# Общие игноры
+node_modules
+.env
+
+# Клиент
+visavi-client/node_modules
+visavi-client/.env
+
+# Сервер
+visavi-server/node_modules
+visavi-server/.env
